@@ -1,7 +1,7 @@
 @import url(http://fonts.googleapis.com/earlyaccess/thabit.css);
 body{
     font-family: 'Thabit';
-    font-size: 12px;
+    font-size: 16px;
     margin: 0;
     background:linear-gradient(to left bottom, darkslategrey, #031f6a);
     color: #000;
@@ -31,13 +31,21 @@ h1{
     margin-bottom: 15px;
     margin-top: 10px;
 }
-button{
+button {
+    height: 70 px;
+    width: 100px;
     padding: 12px 20px;
-    background:rgb(85, 137, 137);
+    margin: 20px;
+    background:rgb(129, 207, 207);
     border: 0;
+    font-size: 20;
     color: #fff;
-    font-size: 18px;
+    opacity: 1;
     border-radius: 5px;
+    transition: 0.3 ms;
+}
+button:hover{
+    opacity: 0.7 ;
 }
 #status {
     font-family: 'Thabit';
