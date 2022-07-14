@@ -1,9 +1,10 @@
-click_to_record.addEventListener('click',function(){
+start.addEventListener('click',function(){
     var speech = true;
     window.SpeechRecognition = window.webkitSpeechRecognition;
 
     const recognition = new SpeechRecognition();
     recognition.lang = 'ar';
+    recognition.continuous = true;
     recognition.interimResults = true;
 
     recognition.addEventListener('result', e => {
@@ -12,11 +13,15 @@ click_to_record.addEventListener('click',function(){
             .map(result => result.transcript)
             .join('')
 
-        document.getElementById("convert_text").innerHTML = transcript;
-        console.log(transcript);
+            document.getElementById("final").innerHTML = transcript;
+            console.log(transcript);
     });
-    
-    if (speech == true) {
+
+    document.querySelector("#start").onclick = () => {
         recognition.start();
-    }
+      };
+    document.querySelector("#stop").onclick = () => {
+        recognition.stop();
+      };
+
 });
