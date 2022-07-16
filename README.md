@@ -6,9 +6,9 @@ IOT and software development Department . <br><br>
 
 > ## Task No.1 
  
-This task have two parts:<br> 
+This task has two parts:<br> 
  1. Developing a web page that transfers the audio to text " [Speech to text page](https://github.com/EAnhar/SmartMethodsTraining/tree/main/SpeechToTextWebPage) ",
-     where is the JavaScript API Speech Recognition is used mainly in it, following code show how to convert the audio to written format .
+     where is the JavaScript API Speech Recognition is used mainly in it, following code shows how to convert the audio to written format .
    ```
    const transcript = Array.from(e.results)
     .map(result => result[0])
@@ -19,7 +19,7 @@ This task have two parts:<br>
     console.log(transcript);
   });
   ```
-   - and to make the page in arabic i added this line . 
+   - To make the page in arabic, I added this line . 
 
    ```
   recognition.lang = 'ar'; 
