@@ -1,0 +1,23 @@
+Operation algorithm to ESP32 board 
+
+The ESP32 can be programmed in different programming environments. 
+such as:
+Arduino IDE
+JavaScript
+… 
+
+To install the ESP32 board in an Arduino IDE, follow these next instructions:
+1-Install Arduino IDE from 
+	https://www.arduino.cc/en/Main/Software  and open it. 
+2-In menu bar go to "File" > "Preferences".
+ 	Enter the following into the "Additional Board Manager URLs" field:
+	https://dl.espressif.com/dl/package_esp32_index.json
+	Then, click the “OK” button
+3-Open the Boards Manager. Go to Tools > Board > Boards Manager…
+	 Search for ESP32 and press install button for the“ESP32 by Espressif Systems".
+	
+4-In menu bar go to "Tools" > "Board":  you will see different ESP32 boards
+	 select what is appropriate for your ESP32 .
+5-Last step in menu bar go to "Tools" > Port > select the port in the list and run the code.
+
+And that's it!.
