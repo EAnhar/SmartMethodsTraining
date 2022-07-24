@@ -1,7 +1,7 @@
 
-<h1 align="center"> Smart Methods Summer Training <br><br></h1> 
+<h1 align="center">Speech to Text web page  <br><br></h1> 
 
-IOT and software development Department . <br><br>
+Smart Methods Summer Training, IOT and software development Department . <br><br>
 
 
 > ## Task No.1 
